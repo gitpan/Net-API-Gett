@@ -10,7 +10,7 @@ WriteMakefile
                    'JSON' => 0,
                    'LWP' => 0,
                    'LWP::Protocol::https' => 0,
-                   'Moo' => 0,
+                   'Moo' => '0.009013',
                    'Sub::Quote' => 0,
                    'Test::More' => 0
                  },
