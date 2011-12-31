@@ -16,22 +16,27 @@ name: Net-API-Gett
 provides:
   Net::API::Gett:
     file: lib/Net/API/Gett.pm
-    version: 0.02
+    version: 1.00
   Net::API::Gett::File:
     file: lib/Net/API/Gett/File.pm
-    version: 0.02
+    version: 1.00
+  Net::API::Gett::Request:
+    file: lib/Net/API/Gett/Request.pm
+    version: 1.00
   Net::API::Gett::Share:
     file: lib/Net/API/Gett/Share.pm
-    version: 0.02
+    version: 1.00
   Net::API::Gett::User:
     file: lib/Net/API/Gett/User.pm
-    version: 0.02
+    version: 1.00
 requires:
+  Array::Iterator: 0
   File::Slurp: 0
   JSON: 0
   LWP: 0
   LWP::Protocol::https: 0
   Moo: 0.009013
+  MooX::Types::MooseLike: 0
   Sub::Quote: 0
   perl: 5.010
 resources:
@@ -41,4 +46,4 @@ resources:
     - 'file sharing'
     - gett
     - 'REST API client'
-version: 0.02
+version: 1.00
