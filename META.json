@@ -14,11 +14,6 @@
    },
    "name" : "Net-API-Gett",
    "prereqs" : {
-      "build" : {
-         "requires" : {
-            "Test::More" : 0
-         }
-      },
       "configure" : {
          "requires" : {
             "Module::Build" : "0.38"
@@ -41,23 +36,23 @@
    "provides" : {
       "Net::API::Gett" : {
          "file" : "lib/Net/API/Gett.pm",
-         "version" : "1.00"
+         "version" : "1.01"
       },
       "Net::API::Gett::File" : {
          "file" : "lib/Net/API/Gett/File.pm",
-         "version" : "1.00"
+         "version" : "1.01"
       },
       "Net::API::Gett::Request" : {
          "file" : "lib/Net/API/Gett/Request.pm",
-         "version" : "1.00"
+         "version" : "1.01"
       },
       "Net::API::Gett::Share" : {
          "file" : "lib/Net/API/Gett/Share.pm",
-         "version" : "1.00"
+         "version" : "1.01"
       },
       "Net::API::Gett::User" : {
          "file" : "lib/Net/API/Gett/User.pm",
-         "version" : "1.00"
+         "version" : "1.01"
       }
    },
    "release_status" : "stable",
@@ -74,5 +69,5 @@
          "REST API client"
       ]
    },
-   "version" : "1.00"
+   "version" : "1.01"
 }
