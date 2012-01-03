@@ -36,23 +36,23 @@
    "provides" : {
       "Net::API::Gett" : {
          "file" : "lib/Net/API/Gett.pm",
-         "version" : "1.01"
+         "version" : "1.02"
       },
       "Net::API::Gett::File" : {
          "file" : "lib/Net/API/Gett/File.pm",
-         "version" : "1.01"
+         "version" : "1.02"
       },
       "Net::API::Gett::Request" : {
          "file" : "lib/Net/API/Gett/Request.pm",
-         "version" : "1.01"
+         "version" : "1.02"
       },
       "Net::API::Gett::Share" : {
          "file" : "lib/Net/API/Gett/Share.pm",
-         "version" : "1.01"
+         "version" : "1.02"
       },
       "Net::API::Gett::User" : {
          "file" : "lib/Net/API/Gett/User.pm",
-         "version" : "1.01"
+         "version" : "1.02"
       }
    },
    "release_status" : "stable",
@@ -69,5 +69,5 @@
          "REST API client"
       ]
    },
-   "version" : "1.01"
+   "version" : "1.02"
 }
