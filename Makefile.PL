@@ -8,12 +8,14 @@ WriteMakefile
   'PREREQ_PM' => {
                    'Array::Iterator' => 0,
                    'File::Slurp' => 0,
+                   'File::Temp' => 0,
                    'JSON' => 0,
                    'LWP' => 0,
                    'LWP::Protocol::https' => 0,
                    'Moo' => '0.009013',
-                   'MooX::Types::MooseLike' => 0,
-                   'Sub::Quote' => 0
+                   'MooX::Types::MooseLike' => '0.02',
+                   'Sub::Quote' => 0,
+                   'Test::More' => 0
                  },
   'INSTALLDIRS' => 'site',
   'EXE_FILES' => [],

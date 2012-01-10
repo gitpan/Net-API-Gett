@@ -12,7 +12,7 @@ use Carp qw(croak);
 use File::Slurp qw(read_file);
 use MooX::Types::MooseLike qw(Int Str);
 
-our $VERSION = '1.02';
+our $VERSION = '1.03';
 
 =head1 PURPOSE
 
@@ -42,7 +42,7 @@ Scalar integer. The number of times this particular file has been downloaded
 Scalar string. Signifies the state a particular file is in. See the 
 L<Gett developer docs|http://ge.tt/developers> for more information.
 
-=item url
+=item getturl
 
 Scalar string. The URL to use in a browser to access a file.
 
@@ -97,7 +97,7 @@ has 'readystate' => (
     isa => Str,
 );
 
-has 'url' => (
+has 'getturl' => (
     is => 'ro',
     isa => Str,
 );
