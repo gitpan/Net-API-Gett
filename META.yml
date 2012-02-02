@@ -8,7 +8,7 @@ build_requires:
 configure_requires:
   Module::Build: 0.38
 dynamic_config: 1
-generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.110440'
+generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.113640'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -17,19 +17,19 @@ name: Net-API-Gett
 provides:
   Net::API::Gett:
     file: lib/Net/API/Gett.pm
-    version: 1.03
+    version: 1.04
   Net::API::Gett::File:
     file: lib/Net/API/Gett/File.pm
-    version: 1.03
+    version: 1.04
   Net::API::Gett::Request:
     file: lib/Net/API/Gett/Request.pm
-    version: 1.03
+    version: 1.04
   Net::API::Gett::Share:
     file: lib/Net/API/Gett/Share.pm
-    version: 1.02
+    version: 1.04
   Net::API::Gett::User:
     file: lib/Net/API/Gett/User.pm
-    version: 1.03
+    version: 1.04
 requires:
   Array::Iterator: 0
   File::Slurp: 0
@@ -47,4 +47,4 @@ resources:
     - 'file sharing'
     - gett
     - 'REST API client'
-version: 1.03
+version: 1.04
