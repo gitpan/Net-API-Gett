@@ -3,22 +3,22 @@ require 5.010;
 use ExtUtils::MakeMaker;
 WriteMakefile
 (
+  'PL_FILES' => {},
+  'INSTALLDIRS' => 'site',
   'NAME' => 'Net::API::Gett',
+  'EXE_FILES' => [],
   'VERSION_FROM' => 'lib/Net/API/Gett.pm',
   'PREREQ_PM' => {
+                   'Moo' => '0.009013',
+                   'Sub::Quote' => 0,
+                   'Test::More' => 0,
                    'Array::Iterator' => 0,
-                   'File::Slurp' => 0,
+                   'MooX::Types::MooseLike' => '0.02',
+                   'LWP::Protocol::https' => 0,
                    'File::Temp' => 0,
                    'JSON' => 0,
                    'LWP' => 0,
-                   'LWP::Protocol::https' => 0,
-                   'Moo' => '0.009013',
-                   'MooX::Types::MooseLike' => '0.02',
-                   'Sub::Quote' => 0,
-                   'Test::More' => 0
-                 },
-  'INSTALLDIRS' => 'site',
-  'EXE_FILES' => [],
-  'PL_FILES' => {}
+                   'File::Slurp' => 0
+                 }
 )
 ;
